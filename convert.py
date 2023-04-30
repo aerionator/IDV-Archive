@@ -1,3 +1,5 @@
+# XML to PLIST converter
+
 import plistlib
 import os
 import sys
