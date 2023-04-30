@@ -53,7 +53,7 @@ for filename in os.listdir(input_dir):
             # Print error message with input file name
             print(f"Error converting {filename}: {str(e)}")
 
-# python two.py "C:\XMLConverter\Combination\biggest
-# python convert.py "C:\Identity V Files\Updates - Live Server - CN\Season 25\NEW S25\0406"
-# python convert.py "C:\Identity V Files\Assets\tour1"
-# python convert.py "C:\Identity V Files\Assets\Archive"
+# How to run the script
+# cd /d  <Folder of the script>
+# The XML folder should be inside the script folder
+# python convert.py "<Folder of XML>"
