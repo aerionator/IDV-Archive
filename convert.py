@@ -1,4 +1,5 @@
-# XML to PLIST converter
+# Changing file extension of XML to PLIST
+# Auto-Rename PLIST file if there's metadata 
 
 import plistlib
 import os
