@@ -56,7 +56,14 @@ for filename in os.listdir(input_dir):
             # Print error message with input file name
             print(f"Error converting {filename}: {str(e)}")
 
-# How to run the script
-# cd /d  <Folder of the script>
-# The XML folder should be inside the script folder
-# python convert.py "<Folder of XML>"
+
+
+# How to use : XML to PLIST convertor
+# 1. open cmd / command prompt
+# 2. write the location of the script (example below)
+# cd C:\Identity V Files\Assets
+# 3. write python convert.py (location of xml files)
+# python convert.py "C:\Identity V Files\Assets\Archive"
+# 4. done, you have successfully convert XML to PLIST
+
+# if you want to archive the XML files, better to copy the original XML first because this script will delete the XML after converting it to PLIST
